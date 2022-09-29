@@ -1,7 +1,4 @@
-<!-- SAX Parser -->
 <beans>
-    <!-- Class <?> clazz =  Class.forName (className)-->
-    <!-- clazz.newInstance() -->
     <bean id="mailServicePOP" class="com.obolonyk.ioc.entity.MailService">
         <property name="port" value="995"/>
         <property name="protocol" value="POP3"/>
